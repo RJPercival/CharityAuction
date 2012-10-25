@@ -1,0 +1,261 @@
+﻿body {
+    background-color: #fafafa;
+    color: #333;
+    font-size: 100%;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+a {
+    color: #333;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: underline;
+}
+
+a:link, a:visited, a:active, a:hover {
+   color: #333;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img{
+	border: none;
+}
+
+#main {
+	padding: 15px;
+}
+
+.featuredImage {
+	width: 476px;
+	height: 380px;
+	border: 1px black solid;
+	background-color: #FFCC99;
+}
+
+/*** Footer (begin) ***/
+
+#footer {
+	font-size: 0.75em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 460px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+#footer ul {
+	list-style: none;
+}
+
+#footer li {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-left: 1px solid black;
+}
+
+#footer li.first {
+	border-left: none;
+}
+
+#footer a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/*** Footer (end) ***/
+
+/*** Header (begin) ***/
+
+#header {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header ul {
+	list-style: none;
+}
+
+#header li {
+	float: left
+}
+
+#header img {
+	border: none;
+}
+
+#headerImages {
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	background-color: white;
+}
+
+#headerImages li {
+	padding-left: 10px;
+	padding-right: 10px;
+} 
+
+#headerLinks {
+	margin-left: auto;
+	margin-right: auto;
+	width: 560px;
+	font-size: 1.2em;
+}
+
+#headerLinks a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#headerLinks li{
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-left: 1px solid black;
+}
+
+#headerLinks li.first {
+	border-left: none;
+}
+
+li#detica {
+	padding-top: 20px;
+}
+
+li#times {
+	padding-top: 27px;
+}
+
+li#bae {
+	padding-top: 25px;
+}
+
+li#gradChallenge {
+	padding-top: 15px;
+}
+
+
+/*** Header (end) ***/
+
+
+/*html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #fafafa;
+    color: #333;
+    font-size: 100%;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+a {
+    color: #333;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: underline;
+}
+
+a:link, a:visited, a:active, a:hover {
+   color: #333;
+}
+
+a:hover {
+   background-color: #c7d1d6;
+}
+
+div {
+   margin: 0;
+   padding: 0;
+}
+
+div.header {
+   height: 15%;
+   width: 100%;
+   vertical-align: middle;
+   padding-left: 2%;
+}
+
+div#body {
+   height: 70%;
+   min-width: 100%;
+   overflow: visible;
+   white-space: nowrap;
+}
+
+div.footer {
+   height: 15%;
+   width: 100%;
+   vertical-align: middle;
+}
+
+div.tile-group {
+   height: 80%;
+   width: 40%;
+   margin-left: 2%;
+   clear: none;
+   white-space: normal;
+   display: inline-block;
+   vertical-align: top;
+}
+
+div.tile {
+   width: 30%; 
+   height: 0;
+   padding-bottom: 30%;
+   margin: 1%;
+   background-color: red;
+   display: inline-block;
+   position: relative;
+}
+
+div.featured {
+   width: 62.5%;
+   height: 0;
+   padding-bottom: 62.5%;
+   margin: 1%;
+   background-color: green;
+   float: left;
+}
+
+div.tall {
+   padding-bottom: 62.5%;
+}
+
+div.tile img {
+   width: 100%;
+}
+
+div.tile div {
+   width: 96%;
+   padding: 2%;
+   position: absolute;
+   bottom: 0px;
+   background-color: blue;
+   color: white;
+   opacity: 0.7;
+}
+
+div.tile h3, div.tile p {
+   margin: 0% 1%;
+}*/

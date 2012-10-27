@@ -49,8 +49,8 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'rjpercival';
-$db['default']['password'] = 'password';
+$db['default']['username'] = 'xmasauctioUbh3n';
+$db['default']['password'] = 'J4u+#E.^mfwk';
 $db['default']['database'] = 'xmasauction';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';

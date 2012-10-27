@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
+        <base href="<?=base_url() ?>">
 		<title>Tranform's Charity Auction | <?=$title ?></title>
 		<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 		<meta name="viewport" content="width=device-width" />

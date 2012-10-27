@@ -7,6 +7,8 @@ class Users extends CI_Model
 {
     public function __construct()
 	{
+        parent::__construct();
+
 		$this->load->database();
 	}
 
@@ -20,6 +22,8 @@ class Users extends CI_Model
     public function createUser($emailAddress)
     {
         $this->db->insert("users", array("email" => $emailAddress));
+
+        return $this->db->insert_id();
     }
 }
 

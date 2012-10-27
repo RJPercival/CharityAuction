@@ -38,9 +38,11 @@
 |
 */
 
-$route['default_controller'] = "StaticPageController/view/home";
-$route['(:any)'] = "StaticPageController/view/$1";
-$route['404_override'] = '';
+$route['items']              = "ItemsController/viewAll";
+$route['items/(:num)']       = "ItemsController/view/$1";
+$route['(:any)']             = "PageController/view/$1";
+$route['default_controller'] = "PageController/view/home";
+$route['404_override']       = '';
 
 
 /* End of file routes.php */

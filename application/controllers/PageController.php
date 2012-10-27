@@ -1,11 +1,18 @@
-<?php 
+<?php
 
-if (!defined('BASEPATH')) 
+if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-class StaticPageController extends CI_Controller 
+class PageController extends CI_Controller
 {
-	public function view($page)
+    public function __construct()
+    {
+        parent::__construct();
+
+        $this->load->helper('url');
+    }
+
+	public function view($page, $data = array())
 	{
         if(file_exists("application/views/$page.php") == false)
 	    {
